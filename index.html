@@ -3,107 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laiba Shoukat | Bioinformatics Student</title>
+    <title>Laiba Shoukat | Portfolio</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
             font-family: "Segoe UI", Arial, sans-serif;
-            background-color: #eef2f5;
-            color: #333;
+            background: #0a0f24;
+            color: #fff;
         }
-
-        header {
-            background: #1f2933;
-            color: #ffffff;
-            padding: 40px 20px;
-            text-align: center;
+        nav {
+            background: #11172a;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
         }
-
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 18px;
-            color: #cbd5e1;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        section {
-            background: #ffffff;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
-        }
-
-        section h2 {
-            margin-top: 0;
-            color: #1f2933;
-            border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 10px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin: 12px 0;
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: bold;
             font-size: 16px;
         }
-
-        footer {
-            background: #1f2933;
-            color: #cbd5e1;
+        nav a:hover {
+            color: #00eaff;
+        }
+        header {
             text-align: center;
-            padding: 15px;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #00eaff;
+        }
+        header p {
+            font-size: 20px;
+            margin-top: 8px;
+            color: #ccc;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 28px;
+            border-bottom: 2px solid #00eaff;
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #00eaff;
+        }
+        ul.skills {
+            list-style: none;
+            padding: 0;
+        }
+        ul.skills li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #11172a;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #777;
         }
     </style>
 </head>
 
 <body>
 
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
 <header>
     <h1>Laiba Shoukat</h1>
-    <p>Bioinformatics Student</p>
+    <p>Bioinformatics Student & Tech Enthusiast</p>
 </header>
 
-<main>
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a bioinformatics student with a strong interest in technology and computing.
-            My academic focus includes data management, networking concepts, and software
-            development principles.
-        </p>
-    </section>
+<section id="about">
+    <div class="section-title">About Me</div>
+    <p>
+        I am a bioinformatics student passionate about computing and technology. I study key subjects such as database systems,
+        computer networking, and software engineering. I enjoy solving problems and building projects that combine biology with
+        computing concepts.
+    </p>
+</section>
 
-    <section>
-        <h2>Academic Subjects</h2>
-        <ul>
-            <li>Database Systems</li>
-            <li>Computer Networking</li>
-            <li>Software Engineering</li>
-        </ul>
-    </section>
-</main>
+<section id="skills">
+    <div class="section-title">My Skills</div>
+    <ul class="skills">
+        <li>Database Systems</li>
+        <li>Computer Networking</li>
+        <li>Software Engineering</li>
+        <li>Bioinformatics Concepts</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <div class="section-title">Contact</div>
+    <p>Email: laibashoukat@example.com</p>
+    <p>LinkedIn: linkedin.com/in/laiba-shoukat</p>
+    <p>GitHub: github.com/laibashoukat</p>
+</section>
 
 <footer>
-    © 2026 Laiba Shoukat — Static Website
+    © 2026 Laiba Shoukat — All Rights Reserved
 </footer>
 
 </body>
 </html>
+
