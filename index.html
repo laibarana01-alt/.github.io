@@ -2,68 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Laiba Shoukat | Portfolio</title>
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100vh;
         }
-        .container {
-            text-align: center;
+
+        .card {
             background: white;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 350px;
         }
+
         h1 {
+            margin: 0;
             color: #333;
-            font-size: 2.5em;
-            margin-bottom: 20px;
         }
-        p {
-            color: #666;
-            font-size: 1.1em;
-            margin-bottom: 30px;
-            line-height: 1.6;
+
+        h2 {
+            color: #777;
+            margin-top: 5px;
         }
-        .links {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
+
+        .subjects {
+            margin-top: 20px;
+            text-align: left;
         }
-        a {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #667eea;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
+
+        .subjects li {
+            margin: 8px 0;
         }
-        a:hover {
-            background: #764ba2;
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Welcome! 👋</h1>
-        <p>This is a temporary landing page. Check back soon for updates!</p>
-        <div class="links">
-            <a href="https://github.com/laibarana01-alt">GitHub Profile</a>
+
+    <div class="card">
+        <h1>Laiba Shoukat</h1>
+        <h2>Bioinformatics Student</h2>
+
+        <div class="subjects">
+            <h3>Subjects I Study:</h3>
+            <ul>
+                <li>Database Systems</li>
+                <li>Computer Networking</li>
+                <li>Software Engineering</li>
+            </ul>
         </div>
+
+        <footer>
+            © 2026 Laiba Shoukat
+        </footer>
     </div>
+
 </body>
 </html>
